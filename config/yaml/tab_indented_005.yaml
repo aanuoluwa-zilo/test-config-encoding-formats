@@ -1,0 +1,17 @@
+# Tab indented YAML 5
+app:
+	name: "Test App 5"
+	version: "1.5.0"
+	settings:
+		debug: false
+		log_level: info
+		features:
+			- feature1
+			- feature2
+			- feature3
+database:
+	host: db-5.example.com
+	port: 5432
+	credentials:
+		username: user5
+		password: pass5
