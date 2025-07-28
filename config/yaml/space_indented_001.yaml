@@ -1,0 +1,17 @@
+# Space indented YAML 1
+app:
+  name: "Test App 1"
+  version: "1.1.0"
+  settings:
+    debug: false
+    log_level: info
+    features:
+      - feature1
+      - feature2
+      - feature3
+database:
+  host: db-1.example.com
+  port: 5432
+  credentials:
+    username: user1
+    password: pass1
